@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Feedback</title>
+    <link href="css/project4.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Pacifico" rel="stylesheet">   
+    </head>
+    <body>
+       <div class="nav">
+        <div id="nc">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="project2.html">Fun Facts</a></li>
+                <li><a href="project3.html">Gallery</a></li>
+                <li><a href="project4.html">Feedback</a></li>
+            </ul>
+        </div>
+     </div>
+     <div id=main>
+<form action="action_page.php">
+    First name:
+    
+    <input type="text" name="firstname">
+    Last name:
+    <input type="text" name="lastname">
+    <br>
+    <br>
+    Are you:<br>
+    <input type="radio" name="sex" value="male"> Male 
+    <input type ="radio" name="sex" value="female">Female
+    <br><br>
+    
+    You found this site:<br><br>
+    <input type="checkbox" name="Very Helpful" value="Very Helpful">Very Helpful<br>
+    <input type="checkbox" name="Somewhat Helpful" value="Somewhat Helpful">Somewhat Helpful<br>
+        <input type="checkbox" name="Not Helpful" value="Nor Helpful"> Not Helpful<br>
+    <br><br>
+    What is your favorite Waterfall?
+    <select name="favorite">
+    <option value="Havasu Falls" selected="selected">Havasu Falls</option>
+    <option value="Big Waterfall">Big Waterfall</option>
+    <option value="Yosemite Falls">Yosemite Falls</option>
+    <option value="Iguazu Falls">Iguazu Falls</option>
+    <option value="Rhine Falls">Rhine Falls</option>
+    <option value="Erawan Falls">Erawan Falls</option></select>
+    <br>
+    <br>
+
+    Would you reccomend this site?<br>
+    <input type="radio" name="yes" value="yes"> Yes
+    <input type ="radio" name="no" value="no">No
+    <br><br>
+    Comments:<br>
+    <textarea rows="5" cols="30">
+    </textarea>
+    <br>
+    <br>
+    <input type="submit" value="Submit">
+    
+</form>
+</div>
+    </body>
+</html>

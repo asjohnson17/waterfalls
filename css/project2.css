@@ -1,0 +1,71 @@
+html, body
+{
+  height:100%;
+  margin:0;
+}
+body
+{
+    background-color: 	#AFEEEE;
+}
+.nav
+{
+    height: 15%;
+    font-family: 'lobster', serif;
+    text-align: center;
+    margin-top:5%;
+    
+}
+a:hover
+{
+    background-color: white;
+}
+#nc
+{
+    height: 50%;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+#nc ul
+{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+#nc li
+{
+    display: inline-block;
+    padding: 2px;
+    width: 150px;
+}
+li
+{
+list-style-type: none;
+   display: inline-block;
+}
+a{
+    text-decoration: none;
+    color: blue;
+    font-size:24px;
+}
+#main
+{
+    height: 70%;
+    width: 60%;
+    margin: auto;
+}
+#main1
+{
+    background-color: rgb(66, 223, 244);
+    height: 30%;
+    width: 100%;
+    font-family: 'lobster', serif;
+}
+#main2
+{
+  height:80%;
+  width:100%;
+  background-color: rgb(202, 65, 244);
+  font-family: 'lobster', serif;
+}
